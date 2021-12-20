@@ -20,6 +20,6 @@ Proyecto que nos permitira ejecutar operaciones basicas.
    ```
 3. Iniciar App in Dev mode
    ```
-   uvicorn calc:app --port 5000 --reload
+   uvicorn api:app --port 5000 --reload
    ```
    

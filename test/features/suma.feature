@@ -2,7 +2,7 @@ Feature: Sumar dos numeros
 
     Scenario Outline: Suma
         Given que quiero realizar operaciones aritméticas
-        When acceda <operacion> <num1> y <num2>
+        When desee <operacion> <num1> y <num2>
         Then el resultado debe ser <result>
         
         Examples: Suma de Numeros
